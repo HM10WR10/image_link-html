@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-15">
+    <title>Tri-Pack</title>
+    <style>
+        body{
+            background-color:rgb(250, 248, 248);
+            margin:0;
+            padding:20px;
+        }
+
+        /* Added CSS for the grid layout */
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr); /* 2 columns */
+          gap: 10px;
+        }
+
+        .grid-item {
+          width: 100%;
+          padding-bottom: 100%; /* Creates a square aspect ratio */
+          position: relative;
+        }
+
+        .grid-item img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 400;
+          height: 500;
+          object-fit: cover; /* Ensures the image covers the entire space */
+        }
+
+       
+        }
+    </style>
+</head>
+<body>
+    <!--navigation Menu-->
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Technology">Technology</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Menu">Menu</a></li>
+        </ul>
+    </nav>
+    <!--Home section-->
+    <section id="Home">
+        <p>Welcome to the Tri-Pack website where Technology, Food, and Nature meet; forming a powerful blend whose effects are to calm and educate the mind with nature's images and latest technological trends respectively; and also to send sparks of desire to the taste buds of your tongue.</p>
+        <img src="c:\Users\adm\Desktop\foodtechnature.jpg" width="1000" height="300" style="max-width:100%;">
+    </section>
+    <!--Technology section-->
+    <section id="Technology">
+        <p>Today, technological innovation is rapidly transforming the way we live and work. Artificial Intelligence (AI) continues to make strides, enabling smarter automation and decision-making across industries. The rise of the Internet of Things (IoT) sees everyday objects connecting and exchanging data, enhancing efficiency and convenience in our homes and cities. Quantum computing promises to revolutionize computing power, offering unprecedented speed and capabilities for complex calculations. Additionally, 5G technology is expanding, paving the way for faster, more reliable wireless connections that support a host of new applications, from augmented reality to autonomous vehicles.</p>
+        <div class="grid-container">
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech1.jpg" alt="Technology image 1" style="max-width:100%;" ></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech2.jpg" alt="Technology image 2" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech4.jpg" alt="Technology image 3" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech5.jpg" alt="Technology image 4" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech6.jpg" alt="Technology image 5" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech3.jpg" alt="Technology image 6" style="max-width:100%;"></div>
+        </div>
+    </section>
+    <section id="Gallery">
+        <p>Nature encompasses the wide array of living and non-living things that exist in the world around us. It includes everything from the smallest microorganisms to the vastness of oceans, mountains, forests, and deserts. Nature encompasses the ecosystems that support life on Earth, from lush rainforests teeming with biodiversity to the stark beauty of arctic landscapes. It's the intricate balance of flora and fauna, the changing seasons, and the dynamic forces of weather and geology. Nature provides us with essential resources like clean air, water, food, and materials for shelter, while also offering beauty, inspiration, and a sense of tranquility and wonder. As we learn more about nature, we also discover its fragility and the importance of preserving its diversity and balance for future generations.</p>
+        <div class="grid-container">
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech1.jpg" alt="Technology image 1" style="max-width:100%;" ></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech2.jpg" alt="Technology image 2" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech4.jpg" alt="Technology image 3" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech5.jpg" alt="Technology image 4" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech6.jpg" alt="Technology image 5" style="max-width:100%;"></div>
+            <div class="grid-item"><img src="C:\Users\adm\Desktop\tech3.jpg" alt="Technology image 6" style="max-width:100%;"></div>
+        </div>
+    </section>
+</body>
+</html>
